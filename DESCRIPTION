@@ -1,0 +1,22 @@
+Package: mortgageCalc
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.1
+Authors@R: 
+    person(given = "First",
+           family = "Last",
+           role = c("aut", "cre"),
+           email = "first.last@example.com")
+Author: Murray Cadzow
+Maintainer: Murray Cadzow <murray.cadzow@gmail.com>
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    tibble,
+    dplyr,
+    magrittr
+Suggests: 
+    testthat
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
